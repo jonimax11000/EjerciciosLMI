@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulari</title>
+    </head>
+    <body>
+        <h1>Registre a Calisteniaap</h1>
+        <form action="#" method="post" name="formulari">
+            <h2>Dades personals</h2>
+            <label for="tratament"><b>Tratament</b></label><br>
+            <input type="radio" id="Sr" name="tratament" value="Sr" checked> <label for="Sr">Sr.</label><br>
+            <input type="radio" id="Sra" name="tratament" value="Sra"> <label for="Sra">Sra</label><br>
+            <input type="radio" id="Altre" name="tratament" value="Altre"> <label for="Altre">Altre</label><br>
+            
+            <label for="nom"><b>Nom:</b> </label>
+            <input type="text" id="nom" name="nom" required><br>
+            
+            <label for="cognom"><b>Cognom:</b>  </label>
+            <input type="text" id="cognom" name="cognom" required><br>
+
+            <label for="telefon"><b>Número de telèfon:</b>  </label>
+            <input type="tel" id="telefon" name="telefon" required><br>
+            
+            <label for="DNI"><b>DNI:</b>  </label>
+            <input type="text" id="DNI" name="DNI" required><br>
+
+            <label for="naixement"><b>Data de naixement:</b>  </label>
+            <input type="date" id="naixement" name="naixement" required><br>
+            <br><br>
+            
+            <h2>Datos de la Cuenta</h2>
+            <label for="nom"><b>Nom:</b> </label>
+            <input type="text" id="nom" name="nom" required><br>
+
+            <label for="email"><b>Direcció de correu:</b> </label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="contrasenya1"><b>contrasenya:</b>  </label>
+            <input type="password" id="contrasenya1" name="contrasenya1" required><br>
+            
+            <label for="contrasenya2"><b>Repeteix la contrasenya:</b>  </label>
+            <input type="password" id="contrasenya2" name="contrasenya2" required><br>
+            <br><br>
+
+            <input type="reset" value="Netejar">
+            <!-- Botó d'enviar -->
+            <input type="submit" value="Enviar">
+        
+        </form>
+    </body>
+</html>
